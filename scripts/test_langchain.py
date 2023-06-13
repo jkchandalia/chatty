@@ -31,7 +31,6 @@ print(llmchain_chat.run("podcast player"))
 '''
 memory = ConversationBufferMemory()
 import os
-os.environ["OPENAI_API_KEY"] = "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"
 llm = ChatOpenAI()
 tools = load_tools([
     'wikipedia',
