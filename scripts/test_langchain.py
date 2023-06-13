@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-#MY_ENV_VAR = os.getenv('OPENAI_API_KEY')
+
 from langchain.prompts import PromptTemplate
 
 prompt = PromptTemplate(
